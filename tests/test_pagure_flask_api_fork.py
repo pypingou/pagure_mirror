@@ -387,6 +387,7 @@ class PagureFlaskApiForktests(tests.Modeltests):
                     }
                 },
                 "status": "Open",
+                "threshold_reached": None,
                 "title": "test pull-request",
                 "uid": "1431414800",
                 "updated_on": "1431414800",
@@ -605,6 +606,7 @@ class PagureFlaskApiForktests(tests.Modeltests):
                     }
             },
             "status": "Open",
+            "threshold_reached": None,
             "title": "test pull-request",
             "uid": "1431414800",
             "updated_on": "1431414800",
@@ -765,6 +767,7 @@ class PagureFlaskApiForktests(tests.Modeltests):
                     }
             },
             "status": "Open",
+            "threshold_reached": None,
             "title": "test pull-request",
             "uid": uid,
             "updated_on": "1431414800",
@@ -2583,6 +2586,7 @@ class PagureFlaskApiForktests(tests.Modeltests):
                                'url_path': 'test',
                                'user': {'fullname': 'PY C', 'name': 'pingou'}},
                 'status': 'Open',
+                'threshold_reached': None,
                 'title': 'Test PR',
                 'uid': 'e8b68df8711648deac67c3afed15a798',
                 'updated_on': '1516348115',
@@ -2695,6 +2699,7 @@ class PagureFlaskApiForktests(tests.Modeltests):
                                'url_path': 'test',
                                'user': {'fullname': 'PY C', 'name': 'pingou'}},
                 'status': 'Open',
+                'threshold_reached': None,
                 'title': 'Test PR',
                 'uid': 'e8b68df8711648deac67c3afed15a798',
                 'updated_on': '1516348115',
